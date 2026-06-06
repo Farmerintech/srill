@@ -14,7 +14,7 @@ export default function HomePage() {
       <ServicesGrid compact />
       <ProcessSection />
       <ContactCTA />
-      <AssumptionsNote />
+      {/* <AssumptionsNote /> */}
     </PageTransition>
   );
 }
