@@ -54,7 +54,7 @@ export default function Navbar() {
                 to={item.path}
                 onClick={() => setOpen(false)}
                 className={({ isActive }) =>
-                  `rounded-lg px-4 py-3 text-base font-bold ${isActive ? "bg-ink text-white" : "text-slate-700"}`
+                  `rounded-lg px-4 py-3 text-base font-bold ${isActive ? " text-yelow-600" : "text-slate-700"}`
                 }
               >
                 {item.label}
