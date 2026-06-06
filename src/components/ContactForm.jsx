@@ -121,7 +121,7 @@ export default function ContactForm() {
 
         <button
           type="submit"
-          className="inline-flex w-full items-center justify-center gap-2 rounded-full bg-ink px-6 py-3.5 text-sm font-black text-white shadow-soft transition hover:-translate-y-0.5 hover:bg-navy sm:w-auto"
+          className="inline-flex w-full items-center justify-center gap-2 rounded-full bg-yellow-600 px-6 py-3.5 text-sm font-black text-white shadow-soft transition hover:-translate-y-0.5 hover:bg-navy sm:w-auto"
         >
           Send Request
           <Send className="h-4 w-4" aria-hidden="true" />

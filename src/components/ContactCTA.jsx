@@ -17,7 +17,7 @@ export default function ContactCTA() {
             </div>
             <Link
               to="/contact"
-              className="inline-flex items-center justify-center gap-2 rounded-full bg-gold px-6 py-3.5 text-sm font-black text-ink shadow-glow transition hover:-translate-y-0.5 hover:bg-[#e5aa37]"
+              className="inline-flex items-center justify-center gap-2 rounded-full bg-yellow-600 px-6 py-3.5 text-sm font-black text-ink shadow-glow transition hover:-translate-y-0.5 hover:bg-[#e5aa37]"
             >
               Start a Request
               <ArrowRight className="h-4 w-4" aria-hidden="true" />

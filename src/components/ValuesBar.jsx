@@ -2,7 +2,7 @@ import { values } from "../data/content.js";
 
 export default function ValuesBar() {
   return (
-    <section className="bg-ink py-6 text-white" aria-label="Company values">
+    <section className="bg-white py-6 text-black" aria-label="Company values">
       <div className="section-shell">
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-5">
           {values.map((value) => {

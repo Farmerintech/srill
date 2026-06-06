@@ -11,7 +11,7 @@ export default function ServicesGrid({ compact = false }) {
         <SectionHeader
           eyebrow="Our Services"
           title="Integrated capabilities for national and global growth."
-          description="The graphic positions SRIL as a professional partner across construction, auctioning, customs licensed freight forwarding, and import/export operations."
+          description=""
         />
         <div className="mt-12 grid gap-5 md:grid-cols-2 xl:grid-cols-4">
           {items.map((service, index) => (

@@ -8,17 +8,17 @@ import { services } from "../data/content.js";
 export default function ServicesPage() {
   return (
     <PageTransition>
-      <section className="bg-white py-16 sm:py-20">
+      {/* <section className="bg-white py-16 sm:py-20">
         <div className="section-shell">
           <p className="eyebrow">Service Portfolio</p>
           <h1 className="mt-4 max-w-4xl text-4xl font-black tracking-normal text-ink sm:text-5xl">
-            The complete SRIL service offer extracted from the graphic.
+            The complete SRIL service offer
           </h1>
           <p className="mt-5 max-w-3xl text-lg leading-8 text-slate-600">
             Each service below preserves the meaning of the original content while presenting it in a cleaner web format.
-          </p>
+          </p> *
         </div>
-      </section>
+      </section> */}
       <ServicesGrid />
       <section className="bg-white py-20">
         <div className="section-shell grid gap-5 md:grid-cols-2">
