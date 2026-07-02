@@ -13,14 +13,14 @@ export default function ServicePage({ service }) {
   return (
     <PageTransition>
       {/* HERO */}
-      <section className=" text-black py-24">
+      <section className=" text-black py-5 md:py-10">
         <div className="section-shell grid lg:grid-cols-2 gap-12 items-center">
           <div>
             {/* <p className="text-gold uppercase tracking-[4px] mb-3">
               Our Services
             </p> */}
 
-            <h1 className="md:text-3xl text-xl text-5xl font-black leading-tight">
+            <h1 className="md:text-3xl text-2xl text-5xl font-black leading-tight">
               {service.hero.title}
             </h1>
 
