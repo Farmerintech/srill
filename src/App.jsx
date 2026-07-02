@@ -23,10 +23,10 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-pearl text-ink antialiased">
-      <AnimatePresence mode="wait">{isLoading && <LoadingScreen />}</AnimatePresence>
+      {/* <AnimatePresence mode="wait">{isLoading && <LoadingScreen />}</AnimatePresence>
       <a href="#main-content" className="skip-link">
         Skip to content
-      </a>
+      </a> */}
       <Navbar />
       <main id="main-content">
         <AnimatePresence mode="wait">
