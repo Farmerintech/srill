@@ -16,11 +16,11 @@ export default function ServicePage({ service }) {
       <section className=" text-black py-24">
         <div className="section-shell grid lg:grid-cols-2 gap-12 items-center">
           <div>
-            <p className="text-gold uppercase tracking-[4px] mb-3">
+            {/* <p className="text-gold uppercase tracking-[4px] mb-3">
               Our Services
-            </p>
+            </p> */}
 
-            <h1 className="text-5xl font-black leading-tight">
+            <h1 className="md:text-3xl text-2xl text-5xl font-black leading-tight">
               {service.hero.title}
             </h1>
 
