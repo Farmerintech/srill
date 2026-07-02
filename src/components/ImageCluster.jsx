@@ -2,11 +2,11 @@ import { motion } from "framer-motion";
 import { Building2, Plane, Scale, Ship, Truck } from "lucide-react";
 
 const tiles = [
-  { label: "Building", icon: Building2, className: "col-span-2 row-span-2 bg-ink text-white" },
-  { label: "Freight", icon: Truck, className: "bg-gold text-ink" },
-  { label: "Auction", icon: Scale, className: "bg-white text-ink" },
-  { label: "Shipping", icon: Ship, className: "bg-navy text-white" },
-  { label: "Aviation", icon: Plane, className: "bg-amberSoft text-ink" }
+  // { label: "Building", icon: Building2, className: "col-span-2 row-span-2 bg-ink text-white" },
+  // { label: "Freight", icon: Truck, className: "bg-gold text-ink" },
+  // { label: "Auction", icon: Scale, className: "bg-white text-ink" },
+  // { label: "Shipping", icon: Ship, className: "bg-navy text-white" },
+  // { label: "Aviation", icon: Plane, className: "bg-amberSoft text-ink" }
 ];
 
 export default function ImageCluster() {
@@ -15,7 +15,7 @@ export default function ImageCluster() {
       <div className="absolute inset-8 rounded-full bg-gold/20 blur-3xl" aria-hidden="true" />
       <div className="relative overflow-hidden rounded-lg border border-white bg-ink p-3 shadow-soft">
         <img
-          src="/sril-source.png"
+          src="/hero.jpeg"
           alt="Original SRIL Integrated Services graphic showing construction, freight, auctioning, shipping, aviation, services, and values."
           className="aspect-[4/5] w-full rounded-md object-cover object-top opacity-95"
           loading="eager"

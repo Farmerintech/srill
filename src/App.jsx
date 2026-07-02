@@ -8,6 +8,9 @@ import AboutPage from "./pages/AboutPage.jsx";
 import ContactPage from "./pages/ContactPage.jsx";
 import HomePage from "./pages/HomePage.jsx";
 import ServicesPage from "./pages/ServicesPage.jsx";
+import AuctionPage from "./pages/auctionPage.jsx";
+import LogisticsPage from "./pages/logisticsPage.jsx";
+import ConstructionPage from "./pages/constructions.jsx";
 
 export default function App() {
   const location = useLocation();
@@ -30,8 +33,11 @@ export default function App() {
           <Routes location={location} key={location.pathname}>
             <Route path="/" element={<HomePage />} />
             <Route path="/services" element={<ServicesPage />} />
+                        <Route path="/contact" element={<ContactPage />} />
             <Route path="/about" element={<AboutPage />} />
-            <Route path="/contact" element={<ContactPage />} />
+            <Route path="/auction" element={<AuctionPage />} />
+            <Route path="/logistics" element={<LogisticsPage />} />
+            <Route path="/construction" element={<ConstructionPage />} />
           </Routes>
         </AnimatePresence>
       </main>

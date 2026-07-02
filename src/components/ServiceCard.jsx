@@ -1,8 +1,10 @@
 import { motion } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
+import { Link } from "react-router-dom";
 
-export default function ServiceCard({ service, index }) {
+export default function ServiceCard({ service, index, to }) {
   const Icon = service.icon;
+  const pageTo = service.to
 
   return (
     <motion.article
@@ -23,8 +25,10 @@ export default function ServiceCard({ service, index }) {
       <h3 className="mt-7 text-xl font-black leading-7 text-ink">{service.title}</h3>
       <p className="mt-4 grow text-base leading-7 text-slate-600">{service.description}</p>
       <div className="mt-7 flex items-center justify-between border-t border-slate-200 pt-5">
+        <Link to={pageTo} className="flex justify-between gap-10 items-center">
         <p className="text-sm font-bold text-slate-500">{service.imageCue}</p>
         <ArrowUpRight className="h-5 w-5 text-gold transition group-hover:translate-x-0.5 group-hover:-translate-y-0.5" aria-hidden="true" />
+     </Link>
       </div>
     </motion.article>
   );

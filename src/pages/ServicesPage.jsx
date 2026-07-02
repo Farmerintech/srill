@@ -20,7 +20,7 @@ export default function ServicesPage() {
         </div>
       </section> */}
       <ServicesGrid />
-      <section className="bg-white py-20">
+      {/* <section className="bg-white py-20">
         <div className="section-shell grid gap-5 md:grid-cols-2">
           {services.map((service, index) => {
             const Icon = service.icon;
@@ -34,13 +34,13 @@ export default function ServicesPage() {
                 transition={{ duration: 0.38, delay: index * 0.05 }}
               >
                 <Icon className="h-8 w-8 text-gold" aria-hidden="true" />
-                <h2 className="mt-5 text-2xl font-black text-ink">{service.shortTitle}</h2>
+                <h2 className="mt-5 text-2xl font-black text-ink">{service.title}</h2>
                 <p className="mt-3 text-base leading-7 text-slate-600">{service.description}</p>
               </motion.article>
             );
           })}
         </div>
-      </section>
+      </section> */}
       <ValuesBar />
       <ContactCTA />
     </PageTransition>
