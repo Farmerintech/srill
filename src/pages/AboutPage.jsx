@@ -57,7 +57,7 @@ export default function AboutPage() {
         </div>
       </section>
       <ValuesBar />
-      <AssumptionsNote />
+      {/* <AssumptionsNote /> */}
     </PageTransition>
   );
 }
