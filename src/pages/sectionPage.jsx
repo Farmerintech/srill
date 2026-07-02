@@ -20,7 +20,7 @@ export default function ServicePage({ service }) {
               Our Services
             </p> */}
 
-            <h1 className="md:text-3xl text-2xl text-5xl font-black leading-tight">
+            <h1 className="md:text-3xl text-xl text-5xl font-black leading-tight">
               {service.hero.title}
             </h1>
 
