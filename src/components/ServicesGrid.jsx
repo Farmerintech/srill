@@ -13,7 +13,7 @@ export default function ServicesGrid({ compact = false }) {
           title="Integrated capabilities for national and global growth."
           description=""
         />
-        <div className="mt-12 grid gap-5 md:grid-cols-2 xl:grid-cols-4">
+        <div className="mt-12 grid gap-5 md:grid-cols-2 xl:grid-cols-3">
           {items.map((service, index) => (
             <ServiceCard key={service.title} service={service} index={index} />
           ))}
